@@ -1,0 +1,168 @@
+:root {
+    --pembe: #e91546;
+    --turuncu: #fc6f22;
+    --yesil: #71b908;
+    --koyumavi: #075192;
+    --acikmavi: #1295D5;
+}
+
+header {
+    background-color: #51a1cf;
+    padding-top: 20px;
+}
+
+#ana-menu {
+    background-color: #51a1cf;
+}
+
+.gri-arkaplan {
+    background-color: #c3d9eb;
+}
+
+#ana-menu .nav-link {
+    color: white;
+}
+
+#meb-baslik {
+    color: #57e78f;
+}
+
+#okul-baslik {
+    color: #1295d5;
+}
+
+#baglantilar .list-group-item {
+    color: #ecf1f5;
+    background-color: #0c63a9;
+}
+
+#liste-baslik {
+    height: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.slider-aciklama {
+    background-color: rgba(0, 0, 0, 0.41);
+    padding: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 10px;
+    background-color: #1295d5;
+    border: solid #fff 3px;
+}
+
+#haber_baslik, #duyuru_baslik, #islem_baslik {
+    padding: 15px;
+    text-align: center;
+    color: #c3d9eb;
+    font-size: 1.5rem;
+    border-bottom-right-radius: 35px;
+}
+
+#haber_baslik {
+    background-color: var(--pembe);
+}
+
+#duyuru_baslik {
+    background-color: var(--turuncu);
+}
+
+#islem_baslik {
+    background-color: var(--yesil);
+}
+
+.alt-baslik {
+    color: var(--koyumavi);
+}
+
+#haberler .list-group-item:hover {
+    color: var(--pembe);
+}
+
+
+.table th {
+    color: var(--acikmavi);
+}
+
+.kurum-resim {
+    max-width: 200%; /* Resimler genişliği boyunca esnek olsun */
+    height: 150; /* Yükseklik orantılı şekilde ayarlandığında resimler bozulmaz */
+    border-radius: 10px; /* Resimler köşe yuvarlamalı */
+  }
+  #panel1 .logonike{
+    width: 100%;
+    height: 115px;
+    object-fit: contain;
+}
+  
+
+
+.devam {
+    background-color: var(--acikmavi);
+    padding: 10px;
+    width: 100px;
+    max-height: fit-content;
+    color: #c3d9eb;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.devam:hover {
+    background-color: var(--pembe); 
+    cursor: pointer; 
+}
+
+#haberler .list-group-item {
+    background-color: #0c63a9;
+    color: #ecf1f5;
+}
+
+#haberler .list-group-item:hover {
+    background-color: var(--pembe);
+    color: white;
+}
+
+#duyuru .list-group-item {
+    background-color: #fc6f22;
+    color: #ecf1f5;
+}
+
+#duyuru .list-group-item:hover {
+    background-color: var(--yesil);
+    color: white;
+}
+
+#islem .list-group-item {
+    background-color: var(--yesil);
+    color: #ecf1f5;
+}
+
+#islem .list-group-item:hover {
+    background-color: var(--koyumavi);
+    color: white;
+}
+
+
+footer {
+    background-color: #075192;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--pembe);
+}
+
+
+
