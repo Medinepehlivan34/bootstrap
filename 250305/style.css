@@ -1,0 +1,17 @@
+body,#ust-bolum{
+    background-color: #ecf1f5;
+}
+header,#ana-menu{
+    background-color:#075192!important;
+}
+#ana-menu .nav-link ,#dikey-menu .nav-link ,#liste-baslık{
+    color:white;
+}
+#okul-ad h2{
+    color: #0c63a9;
+
+}
+#okul-ad h5{
+    color: #1295d5;
+    
+}

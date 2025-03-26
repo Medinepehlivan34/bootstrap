@@ -1,0 +1,59 @@
+body,#ust-bolum{
+    background-color: #ecf1f5;}
+header,#ana-menu{
+    background-color:#075192!important;
+}
+#ana-menu .nav-link ,#dikey-menu .nav-link ,#liste-baslık{
+    color:white;
+}
+#okul-ad h2{
+    color: #0c63a9;
+
+}
+#okul-ad h5{
+    color: #1295d5;
+    
+}
+#dikey-menu .list-group-item{
+    background-color: #1295D5;
+}
+#liste-baslık{
+    height:70px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+#slider-baslık{
+    background-color: rgb(0, 0, 0,0.405);
+    color: white;
+    padding: 10px;
+}
+#haberler-icerik .nav-link ,#Duyurular-icerik .nav-link ,#İşlemler-icerik .nav-link {
+    color: #7b868b;
+}
+#haberler-icerik .nav-link:hover{
+    color: #e91546;
+}
+#Duyurular-icerik .nav-link:hover{
+    color: #fc6f22;
+}
+#İşlemler-icerik .nav-link:hover{
+    background-color: #71b908;
+}
+#haberler-baslık{
+    background-color: #e91546;
+}
+#Duyurular-baslık{
+    background-color: #fc6f22;
+}
+#İşlemler-baslık{
+    background-color: #71b908;
+}
+#haberler-baslık ,#Duyurular-baslık ,#İşlemler-baslık{
+    height:60px;
+    text-align: center;
+    line-height: 50px; 
+    font-size: 1.5rem;
+    color: white;
+    border-bottom-right-radius: 30px;
+}
